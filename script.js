@@ -9,14 +9,21 @@ division(a, b) - priima du skaičius ir grąžina jų dalybos rezultatą;
 const a = 9;
 const b = 3;
 
-class Calculator {
-  constructor(a, b) {
-    this.sum = a + b;
-    this.sutraction = a - b;
-    this.multiplication = a * b;
-    this.divsion = a / b;
-  }
+function Calculator(a, b) {
+  this.sum = a + b;
+  this.sutraction = a - b;
+  this.multiplication = a * b;
+  this.divsion = a / b;
 }
+
+// class Calculator {
+//   constructor(a, b) {
+//     this.sum = a + b;
+//     this.sutraction = a - b;
+//     this.multiplication = a * b;
+//     this.divsion = a / b;
+//   }
+// }
 
 const calc = new Calculator(a, b);
 
